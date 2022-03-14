@@ -1,0 +1,21 @@
+{
+  "name": "remote",
+  "version": "1.0.0",
+  "description": "A discord bot that randomly reacts to messsages using emote",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "swaggy"
+  ],
+  "author": "Anvilly",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.3.1"
+  },
+  "serverless": {
+    "app": "remote",
+    "org": "zhua633"
+  }
+}
