@@ -4,12 +4,14 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_
 
 const prefix='!';
 
+//Example connection string. Input your own connection string
 const mongooseConnectionString='mongodb+srv://anvilly:anvilly123@discordbot.5nqv5.mongodb.net/?keepAlive=true';
 
 const fs=require('fs');
 
 const mongoose=require('mongoose');
 
+//Example invalid token. Input your own token.
 const token='OTIxNjcyNzk2NjI1NTY3Nzc0.Yb2Urg.jsgW6dC2oQiXgENYtx_gx-0vAug';
 
 client.commands=new Collection();
